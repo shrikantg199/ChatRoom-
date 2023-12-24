@@ -1,9 +1,6 @@
-<h2 align="center">
-
-Disney_app_clone<div align="center">
-
- <div>
-  <img alt="Demo" width=600 src="ChatRoom.png" />
+<h2 align="center">ChatRoome
+<div align="center">
+  <img alt="Demo" width=600 src="chatRoom.png" />
 </div>
 </h2>
 <br/>
@@ -15,7 +12,7 @@ Disney_app_clone<div align="center">
 1. Clone the repository:
 
  ```bash
-   git clone https://github.com/shrikantg199/Disney_app_clone.git
+   git clone https://github.com/shrikantg199/ChatRoom-clone.git
    ```
  
 
