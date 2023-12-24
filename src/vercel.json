@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "dist/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist/$1"
+    }
+  ],
+  "env": {
+    "FIREBASE_API_KEY": "AIzaSyCrRiz8fSkusivO2c1_R8VCplcYfjTGilw",
+    "FIREBASE_AUTH_DOMAIN": "chatweb-29f12.firebaseapp.com",
+    "FIREBASE_PROJECT_ID": "chatweb-29f12"
+  }
+}
