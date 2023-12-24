@@ -1,4 +1,4 @@
-<h2 align="center">ChatRoome
+<h2 align="center">ChatRoom
 <div align="center">
   <img alt="Demo" width=600 src="chatRoom.png" />
 </div>
