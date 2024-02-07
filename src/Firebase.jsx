@@ -3,8 +3,8 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCrRiz8fSkusivO2c1_R8VCplcYfjTGilw",
-  authDomain: "chatweb-29f12.firebaseapp.com",
+  apiKey: import.meta.API_KEY,
+  authDomain: import.meta.AUTH_DOMAIN,
   projectId: "chatweb-29f12",
   storageBucket: "chatweb-29f12.appspot.com",
   messagingSenderId: "1083036935901",
