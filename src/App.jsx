@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
-import { configDotenv } from "dotenv";
+
 function App() {
   return (
     <AuthProvider>
